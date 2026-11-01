@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Events</h1>
+
+        <h2>1. Click Event</h2>
+        <button id="clickBtn">Click Me</button>
+        <p id="clickMessage">Button not clicked yet.</p>
+
+        <h2>2. Input Event</h2>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <p id="inputMessage">Your name will appear here.</p>
+
+        <h2>3. Change Event</h2>
+        <select id="courseSelect">
+            <option value="">Select Course</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="React">React</option>
+        </select>
+        <p id="courseMessage">No course selected.</p>
+
+        <h2>4. Submit Event</h2>
+        <form id="myForm">
+            <input type="text" id="studentName" placeholder="Enter student name">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+
+        <h2>5. Mouse Event</h2>
+        <div id="mouseBox">
+            Move your mouse here
+        </div>
+
+        <h2>6. Keyboard Event</h2>
+        <input type="text" id="keyboardInput" placeholder="Press any key">
+        <p id="keyboardMessage">Keyboard event will appear here.</p>
+    </div>
+
+    <script src="task5.js"></script>
+</body>
+</html>

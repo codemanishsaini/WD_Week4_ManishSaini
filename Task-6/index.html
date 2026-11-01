@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Record Manager</h1>
+
+        <form id="studentForm">
+            <input
+                type="text"
+                id="studentName"
+                placeholder="Enter student name"
+                required
+            >
+
+            <input
+                type="text"
+                id="studentCourse"
+                placeholder="Enter course"
+                required
+            >
+
+            <input
+                type="number"
+                id="studentMarks"
+                placeholder="Enter marks"
+                min="0"
+                max="100"
+                required
+            >
+
+            <button type="submit">Add Student</button>
+        </form>
+
+        <h2>Student Records</h2>
+
+        <div id="studentList">
+            <p>No student records available.</p>
+        </div>
+
+        <h3 id="totalStudents">Total Students: 0</h3>
+    </div>
+
+    <script src="task6.js"></script>
+</body>
+</html>
